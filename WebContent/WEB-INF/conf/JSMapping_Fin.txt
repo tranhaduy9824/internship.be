@@ -1,0 +1,26 @@
+ClassName                       ; JAVA_Attribut     ; JS_Attribut                 
+--------------------------------;-------------------------------;-----------------------------------
+TaFinFinance                  ; I_ID                          ; id                            
+TaFinFinance                  ; I_Status                      ; stat                          
+TaFinFinance                  ; I_Type_01                     ; typ01                         
+TaFinFinance                  ; I_Type_02                     ; typ02                         
+TaFinFinance                  ; D_Date_01                     ; dt01                          
+TaFinFinance                  ; D_Date_02                     ; dt02                          
+TaFinFinance                  ; D_Date_03                     ; dt03                          
+TaFinFinance                  ; D_Date_04                     ; dt04                          
+TaFinFinance                  ; F_Val_01                      ; v01                           
+TaFinFinance                  ; F_Val_02                      ; v02                           
+TaFinFinance                  ; F_Val_03                      ; v03                           
+TaFinFinance                  ; F_Val_04                      ; v04                           
+TaFinFinance                  ; F_Val_05                      ; v05                           
+TaFinFinance                  ; T_Info_01                     ; inf01                         
+TaFinFinance                  ; T_Info_02                     ; inf02                         
+TaFinFinance                  ; T_Info_03                     ; inf03                         
+TaFinFinance                  ; T_Info_04                     ; inf04                         
+TaFinFinance                  ; T_Info_05                     ; inf05                         
+TaFinFinance                  ; I_Aut_User_01                 ; uId01                         
+TaFinFinance                  ; I_Aut_User_02                 ; uId02                         
+TaFinFinance                  ; I_Aut_User_03                 ; uId03  
+TaFinFinance				  ; I_Per_Manager             		; manId    
+TaFinFinance				  ; I_Per_Person_01             	; pId01 
+TaFinFinance				  ; I_Per_Person_02             	; pId02            

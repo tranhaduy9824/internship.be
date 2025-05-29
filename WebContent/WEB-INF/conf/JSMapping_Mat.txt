@@ -1,0 +1,378 @@
+ClassName                     ; JAVA_Attribut     			  ; JS_Attribut                   
+------------------------------;-------------------------------;-----------------------------------
+
+TaMatMaterial                 ; I_ID                          ; id                            
+TaMatMaterial                 ; I_Status_01                   ; stat01      
+TaMatMaterial                 ; I_Status_02                   ; stat02 
+TaMatMaterial                 ; I_Status_03                   ; stat03 
+TaMatMaterial                 ; I_Status_04                   ; stat04 
+TaMatMaterial                 ; I_Status_05                   ; stat05                     
+TaMatMaterial                 ; I_Type_01                     ; typ01                         
+TaMatMaterial                 ; I_Type_02                     ; typ02                         
+TaMatMaterial                 ; I_Type_03                     ; typ03      
+TaMatMaterial                 ; I_Type_04                     ; typ04                         
+TaMatMaterial                 ; I_Type_05                     ; typ05                    
+TaMatMaterial                 ; T_Name_01                     ; name01                        
+TaMatMaterial                 ; T_Name_02                     ; name02         
+TaMatMaterial                 ; T_Name_03                     ; name03                 
+TaMatMaterial                 ; T_Code_01                     ; code01                        
+TaMatMaterial                 ; T_Code_02                     ; code02                        
+TaMatMaterial                 ; T_Code_03                     ; code03                        
+TaMatMaterial                 ; T_Code_04                     ; code04                        
+TaMatMaterial                 ; T_Code_05                     ; code05                        
+TaMatMaterial                 ; T_Info_01                     ; inf01                         
+TaMatMaterial                 ; T_Info_02                     ; inf02                         
+TaMatMaterial                 ; T_Info_03                     ; inf03                         
+TaMatMaterial                 ; T_Info_04                     ; inf04                         
+TaMatMaterial                 ; T_Info_05                     ; inf05                         
+TaMatMaterial                 ; T_Info_06                     ; inf06                         
+TaMatMaterial                 ; T_Info_07                     ; inf07                         
+TaMatMaterial                 ; T_Info_08                     ; inf08                         
+TaMatMaterial                 ; T_Info_09                     ; inf09                         
+TaMatMaterial                 ; T_Info_10                     ; inf10                         
+TaMatMaterial                 ; D_Date_01                     ; dt01                          
+TaMatMaterial                 ; D_Date_02                     ; dt02                          
+TaMatMaterial                 ; D_Date_03                     ; dt03                          
+TaMatMaterial                 ; D_Date_04                     ; dt04                           
+TaMatMaterial                 ; I_Per_Person_01               ; prodId                   
+TaMatMaterial                 ; I_Per_Person_02               ; tpId                   
+TaMatMaterial                 ; I_Per_Manager                 ; manId
+TaMatMaterial                 ; I_Aut_User_01                 ; uId01
+TaMatMaterial                 ; I_Aut_User_02                 ; uId02
+
+TaMatMaterial                 ; O_Producer                 	  ; prod
+TaMatMaterial                 ; O_Manager                 	  ; man
+
+TaMatMaterial                 ; O_Documents                   ; files  
+TaMatMaterial                 ; O_Details                     ; details
+TaMatMaterial				  ;	O_Avatar					  ; avatar
+
+TaMatMaterial                 ; O_Prices_Out                  ; priOut
+TaMatMaterial                 ; O_Prices_Advice               ; priAdv
+TaMatMaterial                 ; O_Prices_Inp                  ; priInp	
+TaMatMaterial                 ; O_Cats                		  ; cats
+
+TaMatMaterial                 ; O_Members                	  ; members
+TaMatMaterial                 ; O_User_Role                	  ; userRole
+;;
+
+ViMatMaterialDyn                 ; I_ID                          ; id                            
+ViMatMaterialDyn                 ; I_Status                      ; stat  
+ViMatMaterialDyn                 ; I_Status_01                   ; stat01                
+ViMatMaterialDyn                 ; I_Type_01                     ; typ01                         
+ViMatMaterialDyn                 ; I_Type_02                     ; typ02                         
+ViMatMaterialDyn                 ; I_Type_03                     ; typ03  
+ViMatMaterialDyn                 ; T_Info_01                     ; inf01 
+ViMatMaterialDyn                 ; T_Info_02                     ; inf02                                               
+ViMatMaterialDyn                 ; T_Name_01                     ; name01                        
+ViMatMaterialDyn                 ; T_Name_02                     ; name02                        
+ViMatMaterialDyn                 ; T_Code_01                     ; code01                        
+ViMatMaterialDyn                 ; T_Code_02                     ; code02                        
+ViMatMaterialDyn                 ; T_Code_03                     ; code03                        
+ViMatMaterialDyn                 ; T_Code_04                     ; code04                        
+ViMatMaterialDyn                 ; T_Code_05                     ; code05
+ViMatMaterialDyn               	 ; I_Per_Manager                 ; manId
+ViMatMaterialDyn                 ; D_Date_01                     ; dt01                          
+ViMatMaterialDyn                 ; D_Date_02                     ; dt02                          
+ViMatMaterialDyn                 ; D_Date_03                     ; dt03                          
+ViMatMaterialDyn                 ; D_Date_04                     ; dt04  
+ViMatMaterialDyn				 ; O_Avatar					     ; avatar
+
+;;
+
+
+TaMatMaterialDetail           ; I_ID                          ; id                            
+TaMatMaterialDetail           ; I_Mat_Material_01             ; mId01                       
+TaMatMaterialDetail           ; I_Mat_Material_02             ; mId02                       
+TaMatMaterialDetail           ; T_Info_01                     ; inf01                         
+TaMatMaterialDetail           ; T_Info_02                     ; inf02                         
+TaMatMaterialDetail           ; T_Info_03                     ; inf03                         
+TaMatMaterialDetail           ; T_Info_04                     ; inf04                         
+TaMatMaterialDetail           ; T_Info_05                     ; inf05                         
+TaMatMaterialDetail           ; I_Type_01                     ; typ01                         
+TaMatMaterialDetail           ; I_Type_02                     ; typ02                         
+TaMatMaterialDetail           ; I_Status_01                   ; stat01                        
+TaMatMaterialDetail           ; I_Status_02                   ; stat02                        
+TaMatMaterialDetail           ; I_Val_01                      ; ord                           
+TaMatMaterialDetail           ; I_Val_02                      ; iv02                           
+TaMatMaterialDetail           ; F_Val_01                      ; v01                           
+TaMatMaterialDetail           ; F_Val_02                      ; v02                           
+TaMatMaterialDetail           ; F_Val_03                      ; v03                           
+TaMatMaterialDetail           ; F_Val_04                      ; v04                           
+TaMatMaterialDetail           ; F_Val_05                      ; v05
+
+
+TaMatMaterialDetail           ; O_Child                       ; chiObj
+TaMatMaterialDetail           ; O_Parent                      ; parObj
+TaMatMaterialDetail           ; O_Price                       ; price
+TaMatMaterialDetail           ; O_Children                    ; chi
+;;
+TaMatUnit                     ; I_ID                          ; id                            
+TaMatUnit                     ; I_Status                      ; stat                          
+TaMatUnit                     ; T_Code                        ; code                          
+TaMatUnit                     ; T_Name                        ; name                          
+TaMatUnit                     ; I_Per_Manager                 ; manId 
+TaMatUnit                     ; O_Unit_Ref                    ; ref  
+;;
+TaMatPrice                    ; I_ID                        ; id
+TaMatPrice                    ; I_Priority                  ; ord
+TaMatPrice                    ; I_Status                    ; stat
+TaMatPrice                    ; I_Mat_Material              ; matId
+TaMatPrice                    ; I_Mat_Unit                  ; unitId
+TaMatPrice                    ; F_Val_00                    ; v00
+TaMatPrice                    ; F_Val_01                    ; v01
+TaMatPrice                    ; F_Val_02                    ; v02
+TaMatPrice                    ; F_Val_03                    ; v03
+TaMatPrice                    ; F_Val_04                    ; v04
+TaMatPrice                    ; F_Val_05                    ; v05
+TaMatPrice                    ; F_Val_06                    ; v06
+TaMatPrice                    ; F_Val_07                    ; v07
+TaMatPrice                    ; F_Val_08                    ; v08                           
+TaMatPrice                    ; F_Val_09                    ; v09                           
+TaMatPrice                    ; F_Val_10                    ; v10 
+TaMatPrice                    ; T_Info_01                   ; inf01
+TaMatPrice                    ; T_Info_02                   ; inf02
+TaMatPrice                    ; T_Info_03                   ; inf03                         
+TaMatPrice                    ; T_Info_04                   ; inf04                         
+TaMatPrice                    ; T_Info_05                   ; inf05  
+TaMatPrice                    ; D_Date_01                   ; dt01
+TaMatPrice                    ; D_Date_02                   ; dt02
+TaMatPrice                    ; D_Date_03                   ; dt03
+TaMatPrice                    ; D_Date_04                   ; dt04
+TaMatPrice                    ; I_Aut_User_01               ; uId01
+TaMatPrice                    ; I_Aut_User_02               ; uId02
+
+TaMatWarehouse                ; I_ID                          ; id                            
+TaMatWarehouse                ; T_Name                        ; name                          
+TaMatWarehouse                ; I_Status                      ; stat                          
+TaMatWarehouse                ; I_Type_01                     ; typ01                         
+TaMatWarehouse                ; I_Type_02                     ; typ02                         
+TaMatWarehouse                ; T_Code_01                     ; code01                        
+TaMatWarehouse                ; T_Code_02                     ; code02                        
+TaMatWarehouse                ; T_Info_01                     ; inf01                         
+TaMatWarehouse                ; T_Info_02                     ; inf02                         
+TaMatWarehouse                ; T_Info_03                     ; inf03                         
+TaMatWarehouse                ; T_Info_04                     ; inf04                         
+TaMatWarehouse                ; T_Info_05                     ; inf05                         
+TaMatWarehouse                ; I_Per_Manager                 ; manId 
+;;
+
+TaMatStock                    ; I_ID                          ; id                            
+TaMatStock                    ; I_Status                      ; stat                          
+TaMatStock                    ; I_MAT_Material                ; matId                      
+TaMatStock                    ; F_Val_01                      ; v01
+TaMatStock                    ; F_Val_02                      ; v02
+TaMatStock                    ; F_Val_03                      ; v03
+TaMatStock                    ; F_Val_04                      ; v04
+TaMatStock                    ; F_Val_05                      ; v05
+TaMatStock                    ; T_Info_01                     ; inf01
+TaMatStock                    ; T_Info_02                     ; inf01
+TaMatStock                    ; D_Date_01                     ; dt01
+TaMatStock                    ; D_Date_02                     ; dt02
+TaMatStock                    ; D_Date_03                     ; dt03
+TaMatStock                    ; D_Date_04                     ; dt04                        
+TaMatStock                    ; I_Mat_Warehouse               ; wId    
+TaMatStock                    ; I_Per_Manager                 ; manId                     
+                     
+;;
+
+TaMatStockMonth                  ; I_ID                        ; id                            
+TaMatStockMonth                  ; I_MAT_Material              ; matId
+TaMatStockMonth                  ; F_Val_00                    ; v00                      
+TaMatStockMonth                  ; F_Val_01                    ; v01
+TaMatStockMonth                  ; F_Val_02                    ; v02
+TaMatStockMonth                  ; F_Val_03                    ; v03
+TaMatStockMonth                  ; F_Val_04                    ; v04
+TaMatStockMonth                  ; F_Val_05                    ; v05
+TaMatStockMonth                  ; D_Date_01                   ; dt01
+TaMatStockMonth                  ; D_Date_02                   ; dt02
+TaMatStockMonth                  ; I_Mat_Warehouse             ; wId    
+TaMatStockMonth                  ; I_Per_Manager               ; manId     
+TaMatStockMonth                  ; I_Aut_User                  ; uId
+
+TaMatStockMonth              	 ; I_Type                       ; typ                           
+TaMatStockMonth               	; T_Info_01                     ; inf01                         
+TaMatStockMonth               	; T_Info_02                     ; inf02                         
+TaMatStockMonth               	; T_Info_03                     ; inf03                         
+TaMatStockMonth               	; T_Info_04                     ; inf04                         
+TaMatStockMonth               	; T_Info_05                     ; inf05
+   
+TaMatStockMonth                  ; O_Mat_Material              ; oMat
+TaMatStockMonth                  ; O_Mat_Warehouse             ; oWh
+;;
+
+TaMatStockIo                  ; I_Mat_Stock                   ; stkId                      
+TaMatStockIo                  ; I_Mat_Warehouse               ; wId                  
+TaMatStockIo                  ; I_Sor_Order                   ; ordId                        
+TaMatStockIo                  ; I_Sor_Order_Detail            ; ordDetId                 
+TaMatStockIo                  ; I_Status                      ; stat  
+TaMatStockIo                  ; I_Status_01                   ; stat01
+TaMatStockIo                  ; I_Type                        ; typ                           
+TaMatStockIo                  ; F_Val_00                      ; v00                           
+TaMatStockIo                  ; F_Val_01                      ; v01                           
+TaMatStockIo                  ; F_Val_02                      ; v02                           
+TaMatStockIo                  ; F_Val_03                      ; v03                           
+TaMatStockIo                  ; F_Val_04                      ; v04                           
+TaMatStockIo                  ; F_Val_05                      ; v05                           
+TaMatStockIo                  ; D_Date_01                     ; dt01                          
+TaMatStockIo                  ; D_Date_02                     ; dt02                          
+TaMatStockIo                  ; D_Date_03                     ; dt03                          
+TaMatStockIo                  ; D_Date_04                     ; dt04  
+
+TaMatStockIo             	  ; O_Files                       ; files     
+TaMatStockIo             	  ; O_Details                     ; details                     
+;;
+;;
+
+ViMatStockResume       	  	; I_Warehouse                   ; stkId   
+ViMatStockResume       		; T_Warehouse                   ; stkName                           
+ViMatStockResume       		; I_Material              		; matId                    
+ViMatStockResume       		; F_Quantity_01                 ; q01    
+ViMatStockResume       		; F_Quantity_02                 ; q02                       
+ViMatStockResume       		; T_Mat_Name_01                 ; matName01
+ViMatStockResume       		; T_Mat_Name_02                 ; matName02                          
+ViMatStockResume       		; T_Mat_Code_01                 ; matCode01                     
+ViMatStockResume       		; T_Mat_Code_02                 ; matCode02  
+
+ViMatStockResume_Month       		; I_Material              		; matId                    
+ViMatStockResume_Month       		; I_Time              			; time                    
+ViMatStockResume_Month       		; F_Q_I                 		; qI    
+ViMatStockResume_Month       		; F_Q_O                 		; qO                       
+ViMatStockResume_Month       		; F_Q_I_ALL                 	; qIAll                       
+ViMatStockResume_Month       		; F_Q_R_ALL                 	; qRAll                       
+ViMatStockResume_Month       		; T_Stock                 		; stkName                       
+ViMatStockResume_Month       		; I_Stock              			; stkId                       
+ViMatStockResume_Month       		; T_Material_Name_01            ; matName01
+ViMatStockResume_Month       		; T_Material_Name_02            ; matName02                          
+ViMatStockResume_Month       		; T_Material_Code_01            ; matCode01                     
+ViMatStockResume_Month       		; T_Material_Code_02            ; matCode02  
+ViMatStockResume_Month       		; T_Material_Code_03            ; matCode03  
+ViMatStockResume_Month       		; T_Material_Code_04            ; matCode04  
+
+ViMatStockResume_Interv       		; I_Material              		; matId                    
+ViMatStockResume_Interv       		; I_Time              			; time                    
+ViMatStockResume_Interv       		; F_Q_I                 		; qI   
+ViMatStockResume_Interv       		; F_Q_O                 		; qO                       
+ViMatStockResume_Interv       		; F_Q_I_ALL                 	; qIAll                       
+ViMatStockResume_Interv       		; F_Q_R_ALL                 	; qRAll                       
+ViMatStockResume_Interv       		; T_Stock                 		; stkName                       
+ViMatStockResume_Interv       		; I_Stock              			; stkId                       
+ViMatStockResume_Interv       		; T_Material_Name_01            ; matName01
+ViMatStockResume_Interv       		; T_Material_Name_02            ; matName02                          
+ViMatStockResume_Interv       		; T_Material_Code_01            ; matCode01                     
+ViMatStockResume_Interv       		; T_Material_Code_02            ; matCode02  
+ViMatStockResume_Interv       		; T_Material_Code_03            ; matCode03  
+ViMatStockResume_Interv       		; T_Material_Code_04            ; matCode04  
+
+------------------------	;-------------------------------;---------------------------------
+ViMatStockIn       		; I_ID                       	; id  
+ViMatStockIn       	  	; I_Status                      ; stat                  
+ViMatStockIn       		; F_Quantity_01                 ; q01    
+ViMatStockIn       		; F_Quantity_02                 ; q02  
+ViMatStockIn       		; D_Date_01                     ; dt01                          
+ViMatStockIn       		; D_Date_02                     ; dt02  
+ViMatStockIn       		; T_Val_01                      ; stkInf01                          
+ViMatStockIn       		; T_Val_02                      ; stkInf02 
+ViMatStockIn       		; D_Date_New                    ; dtNew                         
+
+ViMatStockIn       		; I_Material              		; matId 
+ViMatStockIn       		; T_Material_Name_01       		; matName01 
+ViMatStockIn       		; T_Material_Name_02       		; matName02 
+ViMatStockIn       		; T_Material_Code_01       		; matCode01 
+ViMatStockIn       		; T_Material_Code_02       		; matCode02 
+ViMatStockIn       		; T_Material_Code_03       		; matCode03 
+ViMatStockIn       		; T_Material_Code_04       		; matCode04     
+ViMatStockIn       		; T_Material_Unit       		; matURef 
+
+ViMatStockIn       	  	; D_Stock_Io_Date_01     		; stkIoDt01
+ViMatStockIn       	  	; D_Stock_Io_Date_02     		; stkIoDt02             
+                         
+ViMatStockIn       		; I_Stock_Io              		; stkIoId  
+ViMatStockIn       		; T_Stock_Io_Ref          		; stkIoRef    
+ViMatStockIn       		; D_Stock_Io_Date         		; stkIoDate                   
+ViMatStockIn       		; I_Stock_Io_Detail       		; stkIoDetId
+ViMatStockIn       	  	; F_Stock_Detail_Quantity     	; stkIoDetQ
+ViMatStockIn       	  	; D_Stock_Detail_Date_01     	; stkIoDetDt01
+ViMatStockIn       	  	; D_Stock_Detail_Date_02     	; stkIoDetDt02
+
+ViMatStockIn      	  	; I_Warehouse                   ; whId    
+ViMatStockIn       	  	; T_Warehouse                   ; whName
+ViMatStockIn      	  	; I_Stock                   	; stkId    
+ViMatStockIn       	  	; T_Stock                   	; stkName
+
+
+ViMatStockIn       		; F_Order_Detail_Val_01         ; ordDetV01 
+ViMatStockIn       		; F_Order_Detail_Val_02         ; ordDetV02 
+ViMatStockIn       		; F_Order_Detail_Val_03         ; ordDetV03 
+ViMatStockIn       		; F_Order_Detail_Val_04         ; ordDetV04 
+ViMatStockIn       		; F_Order_Detail_Val_05         ; ordDetV05 
+ViMatStockIn       		; F_Order_Detail_Val_06         ; ordDetV06 
+ViMatStockIn       		; F_Order_Detail_Val_07         ; ordDetV07 
+ViMatStockIn       		; F_Order_Detail_Val_08         ; ordDetV08 
+ViMatStockIn       		; F_Order_Detail_Val_09         ; ordDetV09 
+ViMatStockIn       		; F_Order_Detail_Unit_Ratio     ; ordDetURatio
+ViMatStockIn       		; T_Order_Detail_Unit     		; ordDetULab
+ViMatStockIn       		; F_Order_Detail_Quantity     	; ordDetQ
+
+------------------------	;-------------------------------;---------------------------------
+ViMatStockOut       		; I_ID                       	; id  
+ViMatStockOut       	  	; I_Status                      ; stat                  
+ViMatStockOut       		; F_Quantity_01                 ; q01    
+ViMatStockOut       		; F_Quantity_02                 ; q02  
+ViMatStockOut       		; D_Date_01                     ; dt01                          
+ViMatStockOut       		; D_Date_02                     ; dt02  
+ViMatStockOut       		; T_Val_01                      ; v01                          
+ViMatStockOut       		; T_Val_02                      ; v02 
+ViMatStockOut       		; D_Date_New                    ; dtNew                         
+
+ViMatStockOut       		; F_Quantity_Out                ; qOut 
+
+ViMatStockOut       		; I_Material              		; matId 
+ViMatStockOut       		; T_Material_Name_01       		; matName01 
+ViMatStockOut       		; T_Material_Name_02       		; matName02 
+ViMatStockOut       		; T_Material_Code_01       		; matCode01 
+ViMatStockOut       		; T_Material_Code_02       		; matCode02 
+ViMatStockOut       		; T_Material_Code_03       		; matCode03 
+ViMatStockOut       		; T_Material_Code_04       		; matCode04                  
+                         
+ViMatStockOut       		; I_Stock_Io              		; stkOrdId  
+ViMatStockOut       		; T_Stock_Io_Ref          		; stkOrdRef    
+ViMatStockOut       		; D_Stock_Io_Date         		; stkOrdDate                   
+ViMatStockOut       		; I_Stock_Io_Detail       		; stkOrdDetId
+ViMatStockOut      	  		; I_Warehouse                   ; whId    
+ViMatStockOut       	  	; T_Warehouse                   ; whName
+ViMatStockOut      	  		; I_Stock                   	; stkId    
+ViMatStockOut       	  	; T_Stock                   	; stkName
+------------------------------;-------------------------------;--------------------------------- 
+------------------------------;-------------------------------;---------------------------------
+TaMatMaterialData                 ; I_ID                          ; id    
+TaMatMaterialData                 ; I_Mat_Material                ; matId                          
+TaMatMaterialData                 ; I_Status_01                   ; stat01      
+TaMatMaterialData                 ; I_Status_02                   ; stat02 
+TaMatMaterialData                 ; I_Status_03                   ; stat03 
+TaMatMaterialData                 ; I_Status_04                   ; stat04 
+TaMatMaterialData                 ; I_Status_05                   ; stat05                     
+TaMatMaterialData                 ; I_Type_01                     ; typ01                         
+TaMatMaterialData                 ; I_Type_02                     ; typ02                         
+TaMatMaterialData                 ; I_Type_03                     ; typ03      
+TaMatMaterialData                 ; I_Type_04                     ; typ04                         
+TaMatMaterialData                 ; I_Type_05                     ; typ05                    
+TaMatMaterialData                 ; T_Info_01                     ; inf01                         
+TaMatMaterialData                 ; T_Info_02                     ; inf02                         
+TaMatMaterialData                 ; T_Info_03                     ; inf03                         
+TaMatMaterialData                 ; T_Info_04                     ; inf04                         
+TaMatMaterialData                 ; T_Info_05                     ; inf05                         
+TaMatMaterialData                 ; T_Info_06                     ; inf06                         
+TaMatMaterialData                 ; T_Info_07                     ; inf07                         
+TaMatMaterialData                 ; T_Info_08                     ; inf08                         
+TaMatMaterialData                 ; T_Info_09                     ; inf09                         
+TaMatMaterialData                 ; T_Info_10                     ; inf10                         
+TaMatMaterialData                 ; D_Date_01                     ; dt01                          
+TaMatMaterialData                 ; D_Date_02                     ; dt02                          
+TaMatMaterialData                 ; D_Date_03                     ; dt03                          
+TaMatMaterialData                 ; D_Date_04                     ; dt04     
+TaMatMaterialData                 ; F_Val_05                      ; elec              
+TaMatMaterialData                 ; F_Val_06                      ; hum   
+TaMatMaterialData                 ; F_Val_07                      ; temp             
+TaMatMaterialData                 ; I_Aut_User_01                 ; uId01
+TaMatMaterialData                 ; I_Aut_User_02                 ; uId02

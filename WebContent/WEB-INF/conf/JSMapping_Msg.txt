@@ -1,0 +1,28 @@
+ClassName                     ; DB_Attribut                   ; JS_Attribut                   
+TaMsgMessage                  ; I_ID                          ; id                            
+TaMsgMessage                  ; I_Status                      ; stat                          
+TaMsgMessage                  ; I_Type_01                     ; typMsg                        
+TaMsgMessage                  ; I_Type_02                     ; typNoti                       
+TaMsgMessage                  ; T_Info_01                     ; inf01                          
+TaMsgMessage                  ; T_Info_02                     ; inf02                            
+TaMsgMessage                  ; T_Info_03                     ; inf03                         
+TaMsgMessage                  ; T_Info_04                     ; inf04 
+TaMsgMessage                  ; T_Info_05                     ; inf05                        
+TaMsgMessage                  ; I_Aut_User                    ; uId                       
+TaMsgMessage                  ; D_Date_01                     ; dt01   
+TaMsgMessage                  ; D_Date_02                     ; dt02
+TaMsgMessage                  ; I_Entity_ID                   ; entId
+TaMsgMessage                  ; I_Entity_Type                 ; entTyp                          
+TaMsgMessage                  ; O_Documents                	  ; files  
+TaMsgMessage             	  ; O_Avatar                  	  ; avatar
+TaMsgMessage             	  ; O_User                  	  ; dataUser
+
+TaMsgMessageHistory           ; I_ID                          ; id                            
+TaMsgMessageHistory           ; I_Msg_Message                 ; msgId  
+TaMsgMessageHistory           ; I_Nso_Group                   ; grpId                          
+TaMsgMessageHistory           ; I_Aut_User                    ; uId
+TaMsgMessageHistory           ; D_Date                     	  ; dt  
+TaMsgMessageHistory           ; I_Status                      ; stat                         
+TaMsgMessageHistory           ; D_Date_01                     ; dt01   
+TaMsgMessageHistory           ; D_Date_02                     ; dt02  
+

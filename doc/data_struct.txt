@@ -1,0 +1,1 @@
+nsogroup =>sorOrder (entTyp = ID_NSO_Group, entId01: idGroup, userID01: idUser, fv01: amount, stat: 0(new), code01: , typ01: order payment)

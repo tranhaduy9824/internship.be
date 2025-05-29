@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.datasource">java:/comp/env/jdbc/hnv_main</property>
+
+
+		<!-- <property name="hibernate.connection.CharSet">utf8mb4</property> -->
+		<!-- db.url=jdbc:mysql://localhost:3306/db_name?characterEncoding=UTF-8&useUnicode=true -->
+
+		<property name="hibernate.connection.CharSet">utf8</property>
+		<property name="hibernate.connection.characterEncoding">utf8</property>
+		<property name="hibernate.connection.useUnicode">true</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+		<property name="show_sql">false</property>
+
+		<!-- 		AUT package  -->
+		<mapping class="com.hnv.db.aut.TaAutUser" />
+		<mapping class="com.hnv.db.aut.vi.ViAutUserDyn" />
+		<mapping class="com.hnv.db.aut.vi.ViAutUserMember" />
+
+		<mapping class="com.hnv.db.aut.TaAutRight" />
+		<mapping class="com.hnv.db.aut.TaAutRole" />
+		<mapping class="com.hnv.db.aut.vi.ViAutRoleDyn" />
+
+		<mapping class="com.hnv.db.aut.TaAutAuthUser" />
+		<mapping class="com.hnv.db.aut.TaAutAuthService" />
+		<mapping class="com.hnv.db.aut.TaAutHistory" />
+
+		<!-- CFG package -->
+		<mapping class="com.hnv.db.cfg.TaCfgValue" />
+		
+
+		<!-- MAT package -->
+		<mapping class="com.hnv.db.mat.TaMatUnit" />
+		<mapping class="com.hnv.db.mat.TaMatMaterial" />
+		<mapping class="com.hnv.db.mat.TaMatMaterialDetail" />
+		<mapping class="com.hnv.db.mat.TaMatPrice" />
+<!-- 		<mapping class="com.hnv.db.mat.TaMatMaterialData" /> -->
+		<!-- <mapping class="com.hnv.db.mat.TaMatStock" /> -->
+		<!-- <mapping class="com.hnv.db.mat.TaMatStockIo" /> -->
+		<!-- <mapping class="com.hnv.db.mat.TaMatStockMonth" /> -->
+
+		<!-- <mapping class="com.hnv.db.mat.TaMatWarehouse" /> -->
+
+		<mapping class="com.hnv.db.mat.vi.ViMatMaterialDyn" />
+		<!-- <mapping class="com.hnv.db.mat.ViMatStockRQ" /> -->
+		
+
+		<!-- PER package -->
+		<mapping class="com.hnv.db.per.TaPerPerson" />
+		<mapping class="com.hnv.db.per.vi.ViPerPersonDyn" />
+		
+
+		<!-- TPY -->
+		<mapping class="com.hnv.db.tpy.TaTpyInformation" />
+		<mapping class="com.hnv.db.tpy.TaTpyDocument" />
+		<mapping class="com.hnv.db.tpy.TaTpyTranslation" />
+
+		<mapping class="com.hnv.db.tpy.TaTpyCategory" />
+		<mapping class="com.hnv.db.tpy.TaTpyCategoryEntity" />
+
+		<mapping class="com.hnv.db.tpy.vi.ViTpyCategoryDyn" />
+		<mapping class="com.hnv.db.tpy.vi.ViTpyCategoryCount" />
+		
+		<mapping class="com.hnv.db.tpy.TaTpyFavorite" />
+		
+		<mapping class="com.hnv.db.tpy.TaTpyRelationship" />
+
+		<!-- NSO -->
+		<mapping class="com.hnv.db.nso.TaNsoPost" />
+		<mapping class="com.hnv.db.nso.TaNsoOffer" />
+		<mapping class="com.hnv.db.nso.vi.ViNsoPostNew" />
+		<mapping class="com.hnv.db.nso.vi.ViNsoPostSearch" />
+		<mapping class="com.hnv.db.nso.vi.ViNsoOfferSearch" />
+		<mapping class="com.hnv.db.nso.vi.ViNsoOfferMap" /> 
+		<mapping class="com.hnv.db.nso.vi.ViNsoPostNew" /> 
+		<mapping class="com.hnv.db.nso.vi.ViNsoPostComment" /> 
+		<mapping class="com.hnv.db.nso.vi.ViNsoPostCount" /> 
+		
+		<mapping class="com.hnv.db.nso.TaNsoGroup" />
+		<mapping class="com.hnv.db.nso.TaNsoGroupMember" />
+		
+		<!-- SYS -->
+		<mapping class="com.hnv.db.sys.TaSysLock" />
+		<mapping class="com.hnv.db.sys.TaSysException" />
+		<mapping class="com.hnv.db.sys.TaSysAudit" />
+		
+	</session-factory>
+</hibernate-configuration>

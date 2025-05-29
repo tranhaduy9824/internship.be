@@ -1,0 +1,30 @@
+ClassName                     ; JAVA_Attribut     			  ; JS_Attribut                   
+------------------------------;-------------------------------;-----------------------------------
+TaSysAudit                    ; I_ID                          ; id                            
+TaSysAudit                    ; I_Aut_User                    ; uId                           
+TaSysAudit                    ; I_Val_01                      ; v01                           
+TaSysAudit                    ; I_Val_02                      ; v02                           
+TaSysAudit                    ; I_Val_03                      ; v03                           
+TaSysAudit                    ; D_Date                        ; dt                            
+TaSysAudit                    ; T_Info_01                     ; inf01                         
+TaSysAudit                    ; T_Info_02                     ; inf02                         
+TaSysAudit                    ; T_Info_03                     ; inf03                         
+TaSysAudit                    ; T_Info_04                     ; inf04                         
+
+TaSysException                ; I_ID                          ; id                            
+TaSysException                ; I_Aut_User                    ; uId                           
+TaSysException                ; D_Date                        ; dt                            
+TaSysException                ; T_Info_01                     ; inf01                         
+TaSysException                ; T_Info_02                     ; inf02                         
+TaSysException                ; T_Info_03                     ; inf03                         
+TaSysException                ; T_Info_04                     ; inf04                         
+
+TaSysLock                     ; I_ID                          ; id                            
+TaSysLock                     ; I_Aut_User                    ; uId                           
+TaSysLock                     ; I_Val_01                      ; v01                           
+TaSysLock                     ; I_Val_02                      ; v02                           
+TaSysLock                     ; I_Status                      ; stat                          
+TaSysLock                     ; D_Date_01                     ; dt01                          
+TaSysLock                     ; D_Date_02                     ; dt02                          
+TaSysLock                     ; T_Info_01                     ; inf01                         
+TaSysLock                     ; T_Info_02                     ; inf02 

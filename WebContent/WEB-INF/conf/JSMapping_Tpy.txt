@@ -1,0 +1,147 @@
+ClassName                     ; JAVA_Attribut    			  ; JS_Attribut                
+------------------------------;-------------------------------;-----------------------------------
+
+TaTpyInformation              ; I_ID                          ; id                            
+TaTpyInformation              ; I_Entity_Type                 ; entTyp                        
+TaTpyInformation              ; I_Entity_ID                   ; entId                         
+TaTpyInformation              ; I_Status                      ; stat                          
+TaTpyInformation              ; I_Priority                    ; ord                           
+TaTpyInformation              ; I_Type_01                     ; typ01                         
+TaTpyInformation              ; I_Type_02                     ; typ02                         
+TaTpyInformation              ; I_Type_03                     ; typ03                         
+TaTpyInformation              ; I_Type_04                     ; typ04                         
+TaTpyInformation              ; I_Type_05                     ; typ05                         
+TaTpyInformation              ; T_Info_01                     ; inf01                         
+TaTpyInformation              ; T_Info_02                     ; inf02                         
+TaTpyInformation              ; T_Info_03                     ; inf03                         
+TaTpyInformation              ; T_Info_04                     ; inf04                         
+TaTpyInformation              ; T_Info_05                     ; inf05                         
+TaTpyInformation              ; T_Info_06                     ; inf06                         
+TaTpyInformation              ; T_Info_07                     ; inf07                         
+TaTpyInformation              ; T_Info_08                     ; inf08                         
+TaTpyInformation              ; T_Info_09                     ; inf09                         
+TaTpyInformation              ; T_Info_10                     ; inf10                         
+TaTpyInformation              ; F_Val_01                      ; v01                           
+TaTpyInformation              ; F_Val_02                      ; v02                           
+TaTpyInformation              ; F_Val_03                      ; v03                           
+TaTpyInformation              ; F_Val_04                      ; v04                           
+TaTpyInformation              ; F_Val_05                      ; v05                           
+TaTpyInformation              ; F_Val_06                      ; v06                           
+TaTpyInformation              ; F_Val_07                      ; v07                           
+TaTpyInformation              ; F_Val_08                      ; v08                           
+TaTpyInformation              ; F_Val_09                      ; v09                           
+TaTpyInformation              ; F_Val_10                      ; v10                           
+TaTpyInformation              ; D_Date_01                     ; dt01                          
+TaTpyInformation              ; D_Date_02                     ; dt02                          
+TaTpyInformation              ; I_Aut_User_01                 ; uId01                         
+TaTpyInformation              ; I_Aut_User_02                 ; uId02 
+                       
+TaTpyInformation              ; O_Documents                   ; files 
+  
+------------------------------;------------------------------ ;----------------------------
+
+TaTpyDocument                 ; I_ID                          ; id                            
+TaTpyDocument                 ; I_Entity_Type                 ; entTyp                        
+TaTpyDocument                 ; I_Entity_ID                   ; entId                         
+TaTpyDocument                 ; I_Status                      ; stat                          
+TaTpyDocument                 ; I_Priority                    ; ord                           
+TaTpyDocument                 ; I_Type_01                     ; typ01                         
+TaTpyDocument                 ; I_Type_02                     ; typ02                         
+TaTpyDocument                 ; I_Type_03                     ; typ03                         
+TaTpyDocument                 ; I_Type_04                     ; typ04                         
+TaTpyDocument                 ; I_Type_05                     ; typ05                         
+TaTpyDocument                 ; F_Val_01                      ; fSize                           
+TaTpyDocument                 ; F_Val_02                      ; v02                           
+TaTpyDocument                 ; F_Val_03                      ; v03                           
+TaTpyDocument                 ; F_Val_04                      ; v04                           
+TaTpyDocument                 ; F_Val_05                      ; v05                           
+TaTpyDocument                 ; T_Info_01                     ; fName                         
+TaTpyDocument                 ; T_Info_02                     ; inf02                         
+TaTpyDocument                 ; T_Info_03                     ; url                         
+TaTpyDocument                 ; T_Info_04                     ; inf04                         
+TaTpyDocument                 ; T_Info_05                     ; urlPrev                         
+TaTpyDocument                 ; T_Info_06                     ; inf06                         
+TaTpyDocument                 ; T_Info_07                     ; inf07                         
+TaTpyDocument                 ; T_Info_08                     ; inf08                         
+TaTpyDocument                 ; T_Info_09                     ; inf09                         
+TaTpyDocument                 ; T_Info_10                     ; name                         
+TaTpyDocument                 ; D_Date_01                     ; dt01                          
+TaTpyDocument                 ; D_Date_02                     ; dt02                          
+TaTpyDocument                 ; D_Date_03                     ; dt03                          
+TaTpyDocument                 ; D_Date_04                     ; dt04                          
+TaTpyDocument                 ; D_Date_05                     ; dt05                          
+TaTpyDocument                 ; I_Aut_User_01                 ; uId01                         
+TaTpyDocument                 ; I_Aut_User_02                 ; uId02                         
+TaTpyDocument                 ; I_Parent                  	  ; parId      
+ ------------------------------;-------------------------------;-----------------------------------
+-------------------------------;-------------------------------;----------------------------
+TaTpyCategory                 ; I_ID                          ; id                            
+TaTpyCategory                 ; T_Name                        ; name                          
+TaTpyCategory                 ; T_Code                        ; code                          
+TaTpyCategory                 ; T_Info                        ; inf                           
+TaTpyCategory                 ; I_Type_01                     ; typ01                         
+TaTpyCategory                 ; I_Type_02                     ; typ02                         
+TaTpyCategory                 ; I_Type_03                     ; typ03    
+TaTpyCategory                 ; I_Status                      ; stat                      
+TaTpyCategory                 ; I_Parent                  	  ; parId                         
+TaTpyCategory                 ; I_Per_Manager                 ; manId  
+TaTpyCategory                 ; O_Children                    ; child
+TaTpyCategory                 ; O_Parent_Name                 ; parName
+TaTpyCategory                 ; O_Documents                   ; files
+TaTpyCategory                 ; O_Count                   	  ; cnt
+
+ViTpyCategoryDyn                 ; I_ID                          ; id                            
+ViTpyCategoryDyn                 ; T_Name                        ; name                          
+ViTpyCategoryDyn                 ; T_Code                        ; code                          
+ViTpyCategoryDyn                 ; I_Type_01                     ; typ01                         
+ViTpyCategoryDyn                 ; I_Type_02                     ; typ02                         
+ViTpyCategoryDyn                 ; I_Type_03                     ; typ03    
+ViTpyCategoryDyn                 ; I_Status                      ; stat                       
+ViTpyCategoryDyn                 ; I_Parent                  	  ; parId     
+ViTpyCategoryDyn                 ; I_Per_Manager                 ; manId                      
+ViTpyCategoryDyn                 ; O_Parent_Name                 ; parName                    
+ViTpyCategoryDyn                 ; I_Count                 		; cnt
+------------------------------;-------------------------------;-----------------------------------
+
+
+TaTpyCategoryEntity           ; I_ID                    	  ; id 
+TaTpyCategoryEntity           ; I_Entity_Type           	  ; entTyp  
+TaTpyCategoryEntity           ; I_Entity_ID             	  ; entId  
+TaTpyCategoryEntity           ; I_Tpy_Category          	  ; catId  
+
+TaTpyTranslation              ; I_ID                          ; id                            
+TaTpyTranslation              ; I_Entity_Type                 ; entTyp                        
+TaTpyTranslation              ; I_Entity_ID                   ; entId                         
+TaTpyTranslation              ; I_Val_01                      ; v01                           
+TaTpyTranslation              ; I_Val_02                      ; v02                           
+TaTpyTranslation              ; T_Info_01                     ; inf01                         
+TaTpyTranslation              ; T_Info_02                     ; inf02   
+-------------------------------;-------------------------------;----------------------------
+TaTpyFavorite                 ; I_ID                          ; id                            
+TaTpyFavorite                 ; I_Aut_User                    ; autUser
+TaTpyFavorite                 ; I_Entity_Type             	  ; entTyp                     
+TaTpyFavorite                 ; I_Entity_ID               	  ; entId    
+TaTpyFavorite                 ; I_Priority               	  ; ord
+TaTpyFavorite                 ; D_Date                    	  ; dt                           
+TaTpyFavorite                 ; T_Title                       ; title
+TaTpyFavorite                 ; T_Description                 ; descr
+TaTpyFavorite                 ; I_Type                 		  ; typ  
+TaTpyFavorite                 ; O_Entity                 	  ; ent  
+
+------------------------------;-------------------------------;----------------------------
+
+TaTpyRelationship             ; I_ID                          ; id                            
+TaTpyRelationship             ; I_Entity_Type_01              ; entTyp01                   
+TaTpyRelationship             ; I_Entity_Type_02              ; entTyp02                   
+TaTpyRelationship             ; I_Entity_ID_01                ; entId01                    
+TaTpyRelationship             ; I_Entity_ID_02                ; entId02                    
+TaTpyRelationship             ; D_Date_01                     ; dtNew                         
+TaTpyRelationship             ; D_Date_02                     ; dtMod                         
+TaTpyRelationship             ; D_Date_03                  	  ; dtBegin                       
+TaTpyRelationship             ; D_Date_04                     ; dtEnd                         
+TaTpyRelationship             ; I_Type                        ; typ                           
+TaTpyRelationship             ; I_Status                      ; stat                          
+TaTpyRelationship             ; I_Level                       ; lev                           
+TaTpyRelationship             ; T_Comment                     ; cmt  
+TaTpyRelationship             ; O_Entity_01                   ; ent01  
+TaTpyRelationship             ; O_Entity_02                   ; ent02  

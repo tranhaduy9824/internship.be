@@ -1,0 +1,17 @@
+ClassName                     ; DB_Attribut                   ; JS_Attribut                   
+TaCfgValue                    ; I_ID                          ; id  
+TaCfgValue                    ; I_Type_01                     ; typ01 
+TaCfgValue                    ; I_Type_02                     ; typ02
+TaCfgValue                    ; I_Status_01                   ; stat01  
+TaCfgValue                    ; I_Status_02                   ; stat02                          
+TaCfgValue                    ; T_Name                        ; name                          
+TaCfgValue                    ; T_Code                        ; code                          
+TaCfgValue                    ; T_Info_01                 	  ; inf01        
+TaCfgValue                    ; T_Info_02                 	  ; inf02  
+TaCfgValue                    ; T_Info_03                 	  ; inf03                  
+TaCfgValue                    ; I_Parent                      ; parId                        
+TaCfgValue                    ; O_Children                    ; subs               
+
+
+   
+
